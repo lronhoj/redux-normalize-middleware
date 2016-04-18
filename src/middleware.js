@@ -1,8 +1,6 @@
-import {arrayOf as a, Schema as S, normalize} from 'normalizr';
+import {normalize} from 'normalizr';
 import {camelizeKeys} from 'humps';
 
-export const arrayOf = a;
-export const Schema = S;
 export const NORMALIZE = Symbol('NORMALIZE');
 export default store => next => action => {
     const {[NORMALIZE]: options, ...tail} = action;

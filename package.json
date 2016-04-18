@@ -1,8 +1,8 @@
 {
   "name": "redux-normalize-middleware",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "A lib for normalizing incoming data with redux middleware and normalizr",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "node_modules/.bin/babel -d lib src",
     "test": "npm run build && node_modules/.bin/mocha test/**/*-test.js"
