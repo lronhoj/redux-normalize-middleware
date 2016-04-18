@@ -1,4 +1,5 @@
-import middleware, {NORMALIZE as NORMALIZE_} from './middleware.js';
+import middleware_, {NORMALIZE as NORMALIZE_} from './middleware.js';
 
 export const NORMALIZE = NORMALIZE_;
-export default middleware;
+export const middleware = middleware_;
+export default middleware_;

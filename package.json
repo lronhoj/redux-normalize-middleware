@@ -1,6 +1,6 @@
 {
   "name": "redux-normalize-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lib for normalizing incoming data with redux middleware and normalizr",
   "main": "lib/index.js",
   "scripts": {
