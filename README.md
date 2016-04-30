@@ -19,13 +19,11 @@ export const SOME_ENTITIES = 'SOME_ENTITIES';
 export function fetchSomeEntities() {
     return {
         type   : SOME_ENTITIES,
-        // simple mode - just a promise needed
         payload: [{id: 1, foo: 'bar'}],
         [NORMALIZE]: {
             schema: SOME_ENTITIES_SCHEMA,
             attribute: 'payload'
         }
-
     };
 }
 
@@ -33,7 +31,6 @@ export const SOME_ENTITY = 'SOME_ENTITY';
 export function fetchSomeEntity(id) {
     return {
         type   : SOME_ENTITY,
-        // specify options
         payload: {id: 1, foo: 'bar'},
         [NORMALIZE]: {
             schema: SOME_ENTITY_SCHEMA,
